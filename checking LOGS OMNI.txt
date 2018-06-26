@@ -1,0 +1,37 @@
+user: dexpwrk1
+
+pass: Unix11!
+
+-------------------------------------------------
+
+$ cd /users/gen/dexpwrk1/JEE/LightSaberDomain
+$ ls
+applications  config_files  logs  scripts  WLS
+$ cd applications
+$ ls
+AifSimXmlFiles  ShareApplication
+$ cd ShareApplication
+$ ls
+cc-client.ear  rp-app.ear
+$ ^M
+: not found [No such file or directory]
+$ jar -tvf rp-app.ear
+META-INF/
+META-INF/MANIFEST.MF
+META-INF/application.xml
+digital-webapp-ces-Dev-Mexico-2641-20180321-204240.war
+digital-client-Dev-Mexico-2641-20180321-204240-prod.war
+META-INF/maven/
+META-INF/maven/amdocs.cust.digitalexp/
+META-INF/maven/amdocs.cust.digitalexp/digital-application-ces/
+META-INF/maven/amdocs.cust.digitalexp/digital-application-ces/pom.xml
+META-INF/maven/amdocs.cust.digitalexp/digital-application-ces/pom.properties
+\
+
+JEE/LightSaberDomain/applications/ShareApplication/rp-app.ear
+
+
+To Kill and Restart Server -
+psu
+kill -9 lightsaber port id (check where is java shiwing DLightSabel Url copy the ID and Paste)
+
